@@ -1,0 +1,66 @@
+
+
+body {
+  margin: 0px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: inline-block;
+  margin-left: 8vw;
+  margin-top: 15vh;
+
+}
+
+.tower {
+  width: 25vw;
+  height: 65vh;
+  display: inline-block;
+  margin-right: 1vw;
+  background: linear-gradient( 15deg, rgb(246, 246, 246), rgb(235, 235, 235));
+  position: relative;
+  margin-top: 7vh;
+  margin-left: 1vw;
+  border-radius: 20px;
+}
+
+.disc-holder {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.disc {
+  display: inline-block;
+  height: 13vh;
+  width: 100%;
+  background-color: rgb(84, 84, 84);
+  margin-top: 5vh;
+  border-radius: 20px;
+}
+
+#disc1, #disc2, #disc3 {
+  -webkit-animation-duration: 0.5s;
+}
+
+#disc1 {
+  width: 40%;
+  margin-left: 29%;
+}
+
+#disc2 {
+  width: 60%;
+  margin-left: 19%;
+}
+#disc3 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.base {
+  width: 100%;
+  margin-top: 5vh;
+}
